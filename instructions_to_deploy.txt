@@ -1,4 +1,0 @@
-   1. docker build -t <image-name> .
-    docker tag <image-name> registry.heroku.com/<app-name>/web
-    docker push registry.heroku.com/<app-name>/web
-    heroku container:release web -a <app-name>
